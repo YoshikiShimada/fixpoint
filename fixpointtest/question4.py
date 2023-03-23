@@ -65,11 +65,11 @@ def question4():
                  if timeout >= int(N):
                      list1.append(subnet1[parameters[0]][j])
                      print("故障サブネット10.20")
-                     print("故障開始",list1[0],"故障終了",list1[-1],"故障時間",format(int(list1[-1])-int(list1[0]),"014"))
+                     print("故障開始:",list1[0],"故障終了:",list1[-1],"故障時間:",format(int(list1[-1])-int(list1[0]),"014"))
                      print("サブネット10.20:",list1[-1],"故障回復")
 
                      file.write("故障サブネット10.20\n")
-                     file.write("故障開始:"+str(list1[0])+"\t"+"故障終了:"+str(list1[-1])+"\t"+"故障時間"+str(format(int(list1[-1])-int(list1[0]),"014"))+"\n")
+                     file.write("故障開始:"+str(list1[0])+"\t"+"故障終了:"+str(list1[-1])+"\t"+"故障時間:"+str(format(int(list1[-1])-int(list1[0]),"014"))+"\n")
                      file.write("サブネット10.20:"+str(list1[-1])+"故障回復\n")
 
                      timeout = 0
@@ -98,11 +98,11 @@ def question4():
                 if timeout >= int(N):
                     list2.append(subnet2[parameters[0]][j])
                     print("故障サブネット192.168.1")
-                    print("故障開始",list2[0],"故障終了",list2[-1],"故障時間",format(int(list2[-1])-int(list2[0]),"014"))
+                    print("故障開始:",list2[0],"故障終了:",list2[-1],"故障時間:",format(int(list2[-1])-int(list2[0]),"014"))
                     print("サブネット192.168.1:",list2[-1],"故障回復")
                    
                     file.write("故障サブネット192.168.1\n")
-                    file.write("故障開始:"+str(list2[0])+"\t"+"故障終了:"+str(list2[-1])+"\t"+"故障時間"+str(format(int(list2[-1])-int(list2[0]),"014"))+"\n")
+                    file.write("故障開始:"+str(list2[0])+"\t"+"故障終了:"+str(list2[-1])+"\t"+"故障時間:"+str(format(int(list2[-1])-int(list2[0]),"014"))+"\n")
                     file.write("サブネット192.168.1:"+str(list2[-1])+"故障回復\n")
 
                     timeout = 0
@@ -110,7 +110,7 @@ def question4():
         #pingがN回以上タイムアウトかつ回復していない場合        
         if timeout >= int(N):
             print("故障サブネット192.168.1")
-            print("故障開始",list2[0],"故障中",list2[-1],"故障時間",format(int(list2[-1])-int(list2[0]),"014"))
+            print("故障開始:",list2[0],"故障中:",list2[-1],"故障時間:",format(int(list2[-1])-int(list2[0]),"014"))
             
             file.write("故障サブネット192.168.1\n")
             file.write("故障開始:"+str(list2[0])+"\t"+"故障中:"+str(list2[-1])+"\t"+"故障時間:"+str(format(int(list2[-1])-int(list2[0]),"014"))+"\n")
