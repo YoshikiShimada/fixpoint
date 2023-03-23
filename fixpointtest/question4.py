@@ -77,7 +77,7 @@ def question4():
         #pingがN回以上タイムアウトかつ回復していない場合
         if timeout >= int(N):
            print("故障サブネット10.20")
-           print("故障開始",list1[0],"故障中",list1[-1],"故障時間",format(int(list1[-1])-int(list1[0]),"014"))
+           print("故障開始:",list1[0],"故障中:",list1[-1],"故障時間:",format(int(list1[-1])-int(list1[0]),"014"))
            file.write("故障サブネット10.20\n")
            file.write("故障開始:"+str(list1[0])+"\t"+"故障中:"+str(list1[-1])+"\t"+"故障時間:"+str(format(int(list1[-1])-int(list1[0]),"014"))+"\n")
         else:
