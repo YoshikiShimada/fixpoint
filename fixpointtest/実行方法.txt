@@ -1,5 +1,5 @@
-python3.9���ɂĎ��s�\���m�F���܂����B
-���s������.py�t�@�C���A.csv�t�@�C�����ۑ�����Ă���f�B���N�g���Ɉړ����A
-python �t�@�C����.py
-�̂悤�ɂ��Ď��s���܂��B
-�e�ݖ�̓����e�L�X�g�f�[�^�͎��s���ƂɍX�V����܂��B
+python3.9環境にて実行可能を確認しました。
+実行したい.pyファイル、.csvファイルが保存されているディレクトリに移動し、
+python ファイル名.py
+のようにして実行します。
+各設問のテストデータによる結果のテキストデータanswer.txtは実行ごとに更新されます。
