@@ -47,7 +47,7 @@ def question2():
             server1[parameters[0]].append(sample_dic[parameters[0]][i])
             server1[parameters[1]].append(sample_dic[parameters[1]][i])
             server1[parameters[2]].append(sample_dic[parameters[2]][i])
-           # print(server1)
+          
         elif sample_dic[parameters[1]][i] == "10.20.30.2/16":
             server2[parameters[0]].append(sample_dic[parameters[0]][i])
             server2[parameters[1]].append(sample_dic[parameters[1]][i])
