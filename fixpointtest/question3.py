@@ -74,7 +74,7 @@ def question3():
              
         result = sum/int(m)
         if result > int(t):
-            print("過負荷サーバアドレス,10.20.30.1/16")
+            print("過負荷サーバアドレス:10.20.30.1/16")
             file.write("過負荷サーバアドレス:10.20.30.1/16\n")
             for k in range(int(m),0,-1):
                 list1.append(server1[parameters[0]][k-1])
@@ -82,11 +82,11 @@ def question3():
             print("直近過負荷期間",list1[-1],"～",list1[-int(m)])
             file.write("直近過負荷期間:"+str(list1[-1])+"～"+str(list1[-int(m)])+"\n")
         else:
-            print("サーバアドレス,10.20.30.1/16:直近過負荷なし")
-            file.write("サーバアドレス,10.20.30.1/16:直近過負荷なし\n")
+            print("サーバアドレス:10.20.30.1/16:直近過負荷なし")
+            file.write("サーバアドレス:10.20.30.1/16:直近過負荷なし\n")
     else:
-         print("サーバアドレス,10.20.30.1/16:直近過負荷なし")    
-         file.write("サーバアドレス,10.20.30.1/16:直近過負荷なし\n")
+         print("サーバアドレス:10.20.30.1/16:直近過負荷なし")    
+         file.write("サーバアドレス:10.20.30.1/16:直近過負荷なし\n")
 
     if len(server2[parameters[2]]) >= int(m):
         for j in range(int(m),0,-1):
@@ -94,7 +94,7 @@ def question3():
                  sum2 += int(server2[parameters[2]][-j]) 
         result2 = sum2/int(m)
         if result2 > int(t):    
-            print( "過負荷サーバアドレス,10.20.30.2/16")
+            print( "過負荷サーバアドレス:10.20.30.2/16")
             file.write("過負荷サーバアドレス:10.20.30.2/16\n")
             for k in range(int(m),0,-1):
                 list2.append(server2[parameters[0]][k-1])
@@ -102,11 +102,11 @@ def question3():
             print("直近過負荷期間",list2[-1],"～",list2[-int(m)])
             file.write("直近過負荷期間"+str(list2[-1])+"～"+str(list2[-int(m)])+"\n")
         else:
-            print("サーバアドレス,10.20.30.2/16:直近過負荷なし")
-            file.write("サーバアドレス,10.20.30.2/16:直近過負荷なし\n")
+            print("サーバアドレス:10.20.30.2/16:直近過負荷なし")
+            file.write("サーバアドレス:10.20.30.2/16:直近過負荷なし\n")
     else:
-         print("サーバアドレス,10.20.30.2/16:直近過負荷なし") 
-         file.write("サーバアドレス,10.20.30.2/16:直近過負荷なし\n")
+         print("サーバアドレス:10.20.30.2/16:直近過負荷なし") 
+         file.write("サーバアドレス:10.20.30.2/16:直近過負荷なし\n")
 
     if len(server3[parameters[2]]) >= int(m):
         for j in range(int(m),0,-1):
@@ -114,7 +114,7 @@ def question3():
                 sum3 += int(server3[parameters[2]][-j])
         result3 = sum3/int(m)    
         if result3 > int(t):   
-            print("過負荷サーバアドレス,192.168.1.1/24")
+            print("過負荷サーバアドレス:192.168.1.1/24")
             file.write("過負荷サーバアドレス:192.168.1.1/24\n")
             for k in range(int(m),0,-1):                
                 list3.append(server3[parameters[0]][k-1])
@@ -123,11 +123,11 @@ def question3():
            
             file.write("直近過負荷期間"+str(list3[-1])+"～"+str(list3[-int(m)])+"\n")
         else:
-            print("サーバアドレス,192.168.1.1/24:直近過負荷なし")
-            file.write("サーバアドレス,192.168.1.1/24:直近過負荷なし\n")
+            print("サーバアドレス:192.168.1.1/24:直近過負荷なし")
+            file.write("サーバアドレス:192.168.1.1/24:直近過負荷なし\n")
     else:
-         print("サーバアドレス,192.168.1.1/24:直近過負荷なし") 
-         file.write("サーバアドレス,192.168.1.1/24:直近過負荷なし\n")
+         print("サーバアドレス:192.168.1.1/24:直近過負荷なし") 
+         file.write("サーバアドレス:192.168.1.1/24:直近過負荷なし\n")
 
     if len(server4[parameters[2]]) >= int(m):
         for j in range(int(m),0,-1):
@@ -135,7 +135,7 @@ def question3():
                 sum4 += int(server4[parameters[2]][-j])
         result4 = sum4/int(m)
         if result4 > int(t): 
-            print("過負荷サーバアドレス,192.168.1.2/24")
+            print("過負荷サーバアドレス:192.168.1.2/24")
             file.write("過負荷サーバアドレス:192.168.1.2/24\n")
             for k in range(int(m),0,-1):
                 list4.append(server4[parameters[0]][k-1])
@@ -143,10 +143,10 @@ def question3():
             print("直近過負荷期間",list4[-1],"～",list4[-int(m)])
             file.write("直近過負荷期間"+str(list4[-1])+"～"+str(list4[-int(m)])+"\n")
         else:
-            print("サーバアドレス,192.168.1.2/24:直近過負荷なし")
-            file.write("サーバアドレス,192.168.1.2/24:直近過負荷なし\n")
+            print("サーバアドレス:192.168.1.2/24:直近過負荷なし")
+            file.write("サーバアドレス:192.168.1.2/24:直近過負荷なし\n")
     else:
-         print("サーバアドレス,192.168.1.2/24:直近過負荷なし") 
-         file.write("サーバアドレス,192.168.1.2/24:直近過負荷なし\n")
+         print("サーバアドレス:192.168.1.2/24:直近過負荷なし") 
+         file.write("サーバアドレス:192.168.1.2/24:直近過負荷なし\n")
 
 question3()
