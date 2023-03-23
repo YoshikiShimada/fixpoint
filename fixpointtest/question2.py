@@ -76,22 +76,22 @@ def question2():
             flug2 = 0
         elif flug == 1 and flug2 > n and server1[parameters[2]][i] != '-':
             list1.append(server1[parameters[0]][i])
-            print("故障サーバアドレス；",server1[parameters[1]][i])
+            print("故障サーバアドレス:",server1[parameters[1]][i])
             print("故障期間:",list1[0],"～",list1[-1])
-            file.write("故障サーバアドレス；"+str(server1[parameters[1]][i]))
+            file.write("故障サーバアドレス:"+str(server1[parameters[1]][i]))
             file.write("故障期間:"+str(list1[0])+"～"+str(list1[-1])+"\n")
             flug = 0
             flug2 = 0
 
     if flug == 0 and flug2 == 0:
-        print("サーバアドレス；",server1[parameters[1]][i])
+        print("サーバアドレス:",server1[parameters[1]][i])
         print("故障なし")
-        file.write("サーバアドレス；"+ str(server1[parameters[1]][i]))
+        file.write("サーバアドレス:"+ str(server1[parameters[1]][i]))
         file.write("故障なし"+"\n")
     if flug != 0 and flug2 != 0:
-        print("故障サーバアドレス；",server1[parameters[1]][i])
+        print("故障サーバアドレス:",server1[parameters[1]][i])
         print("故障中:",list1[0],"～",list1[-1])
-        file.write("故障サーバアドレス；"+ str(server1[parameters[1]][i]))
+        file.write("故障サーバアドレス:"+ str(server1[parameters[1]][i]))
         file.write("故障中:"+str(list1[0])+"～"+str(list1[-1])+"\n")
         flug = 0
         flug2 = 0
@@ -109,22 +109,22 @@ def question2():
             flug2 = 0
         elif flug == 1 and flug2 > n and server2[parameters[2]][i] != '-':
             list2.append(server2[parameters[0]][i])
-            print("故障サーバアドレス；",server2[parameters[1]][i])
+            print("故障サーバアドレス:",server2[parameters[1]][i])
             print("故障期間:",list2[0],"～",list2[-1])
-            file.write("故障サーバアドレス；"+str(server2[parameters[1]][i]))
+            file.write("故障サーバアドレス:"+str(server2[parameters[1]][i]))
             file.write("故障期間:"+str(list2[0])+"～"+str(list2[-1])+"\n")
             flug = 0
             flug2 = 0
 
     if flug == 0 and flug2 == 0:
-        print("サーバアドレス；",server2[parameters[1]][i])
+        print("サーバアドレス:",server2[parameters[1]][i])
         print("故障なし")
-        file.write("サーバアドレス；"+ str(server2[parameters[1]][i]))
+        file.write("サーバアドレス:"+ str(server2[parameters[1]][i]))
         file.write("故障なし"+"\n")
     if flug != 0 and flug2 != 0:
-        print("故障サーバアドレス；",server2[parameters[1]][i])
+        print("故障サーバアドレス:",server2[parameters[1]][i])
         print("故障中:",list2[0],"～",list2[-1])
-        file.write("故障サーバアドレス；"+ str(server2[parameters[1]][i]))
+        file.write("故障サーバアドレス:"+ str(server2[parameters[1]][i]))
         file.write("故障中:"+str(list2[0])+"～"+str(list2[-1])+"\n")
         flug = 0
         flug2 = 0
@@ -142,22 +142,22 @@ def question2():
             flug2 = 0
         elif flug == 1 and flug2 > n and server3[parameters[2]][i] != '-':
             list3.append(server3[parameters[0]][i])
-            print("故障サーバアドレス；",server3[parameters[1]][i])
+            print("故障サーバアドレス:",server3[parameters[1]][i])
             print("故障期間:",list3[0],"～",list3[-1])
-            file.write("故障サーバアドレス；"+str(server3[parameters[1]][i]))
+            file.write("故障サーバアドレス:"+str(server3[parameters[1]][i]))
             file.write("故障期間:"+str(list3[0])+"～"+str(list3[-1])+"\n")
             flug = 0
             flug2 = 0
 
     if flug == 0 and flug2 == 0:
-        print("サーバアドレス；",server3[parameters[1]][i])
+        print("サーバアドレス:",server3[parameters[1]][i])
         print("故障なし")
-        file.write("サーバアドレス；"+ str(server3[parameters[1]][i]))
+        file.write("サーバアドレス:"+ str(server3[parameters[1]][i]))
         file.write("故障なし"+"\n")
     if flug != 0 and flug2 != 0:
-        print("故障サーバアドレス；",server3[parameters[1]][i])
+        print("故障サーバアドレス:",server3[parameters[1]][i])
         print("故障中:",list3[0],"～",list3[-1])
-        file.write("故障サーバアドレス；"+ str(server3[parameters[1]][i]))
+        file.write("故障サーバアドレス:"+ str(server3[parameters[1]][i]))
         file.write("故障中:"+str(list3[0])+"～"+str(list3[-1])+"\n")
         flug = 0
         flug2 = 0
@@ -176,22 +176,22 @@ def question2():
             flug2 = 0
         elif flug == 1 and flug2 > n and server4[parameters[2]][i] != '-':
             list4.append(server4[parameters[0]][i])
-            print("故障サーバアドレス；",server4[parameters[1]][i])
+            print("故障サーバアドレス:",server4[parameters[1]][i])
             print("故障期間:",list4[0],"～",list4[-1])
-            file.write("故障サーバアドレス；"+str(server4[parameters[1]][i]))
+            file.write("故障サーバアドレス:"+str(server4[parameters[1]][i]))
             file.write("故障期間:"+str(list4[0])+"～"+str(list4[-1])+"\n")
             flug = 0
             flug2 = 0
 
     if flug == 0 and flug2 == 0:
-        print("サーバアドレス；",server4[parameters[1]][i])
+        print("サーバアドレス:",server4[parameters[1]][i])
         print("故障なし")
-        file.write("サーバアドレス；"+ str(server4[parameters[1]][i]))
+        file.write("サーバアドレス:"+ str(server4[parameters[1]][i]))
         file.write("故障なし"+"\n")
     if flug != 0 and flug2 != 0:
-        print("故障サーバアドレス；",server4[parameters[1]][i])
+        print("故障サーバアドレス:",server4[parameters[1]][i])
         print("故障中:",list4[0],"～",list4[-1])
-        file.write("故障サーバアドレス；"+ str(server4[parameters[1]][i]))
+        file.write("故障サーバアドレス:"+ str(server4[parameters[1]][i]))
         file.write("故障中:"+str(list4[0])+"～"+str(list4[-1])+"\n")
         flug = 0
         flug2 = 0
