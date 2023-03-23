@@ -72,9 +72,9 @@ def question1():
         elif flug == 1 and server1[parameters[2]][i] != '-':
             flug = 0
             list1.append(server1[parameters[0]][i])
-            print("故障サーバアドレス；",server1[parameters[1]][i])
+            print("故障サーバアドレス:",server1[parameters[1]][i])
             print("故障期間:",list1[0],"～",list1[-1])
-            file.write("故障サーバアドレス；"+str(server1[parameters[1]][i])+"\n")
+            file.write("故障サーバアドレス:"+str(server1[parameters[1]][i])+"\n")
             file.write("故障期間:"+str(list1[0])+"～"+str(list1[-1])+"\n")
 
     for i in range(len(server2[parameters[0]])):
@@ -87,9 +87,9 @@ def question1():
         elif flug == 1 and server2[parameters[2]][i] != '-':
             flug = 0
             list2.append(server2[parameters[0]][i])
-            print("故障サーバアドレス；",server2[parameters[1]][i])
+            print("故障サーバアドレス:",server2[parameters[1]][i])
             print("故障期間:",list2[0],"～",list2[-1])
-            file.write("故障サーバアドレス；"+str(server2[parameters[1]][i])+"\n")
+            file.write("故障サーバアドレス:"+str(server2[parameters[1]][i])+"\n")
             file.write("故障期間:"+str(list2[0])+"～"+str(list2[-1])+"\n")
        
     for i in range(len(server3[parameters[0]])):
@@ -102,7 +102,7 @@ def question1():
         elif flug == 1 and server3[parameters[2]][i] != '-':
             flug = 0
             list3.append(server3[parameters[0]][i])
-            print("故障サーバアドレス；",server3[parameters[1]][i])
+            print("故障サーバアドレス:",server3[parameters[1]][i])
             print("故障期間:",list3[0],"～",list3[-1])
             file.write("故障サーバアドレス；"+str(server3[parameters[1]][i])+"\n")
             file.write("故障期間:"+str(list3[0])+"～"+str(list3[-1])+"\n")
@@ -119,7 +119,7 @@ def question1():
             list4.append(server4[parameters[0]][i])
             print("故障サーバアドレス；",server4[parameters[1]][i])
             print("故障期間:",list4[0],"～",list4[-1])
-            file.write("故障サーバアドレス；"+str(server3[parameters[1]][i])+"\n")
+            file.write("故障サーバアドレス:"+str(server3[parameters[1]][i])+"\n")
             file.write("故障期間:"+str(list3[0])+"～"+str(list3[-1])+"\n")
  
 
