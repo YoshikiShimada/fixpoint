@@ -117,7 +117,7 @@ def question1():
         elif flug == 1 and server4[parameters[2]][i] != '-':
             flug = 0
             list4.append(server4[parameters[0]][i])
-            print("故障サーバアドレス；",server4[parameters[1]][i])
+            print("故障サーバアドレス:",server4[parameters[1]][i])
             print("故障期間:",list4[0],"～",list4[-1])
             file.write("故障サーバアドレス:"+str(server3[parameters[1]][i])+"\n")
             file.write("故障期間:"+str(list3[0])+"～"+str(list3[-1])+"\n")
