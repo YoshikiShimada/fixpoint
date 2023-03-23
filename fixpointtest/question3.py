@@ -95,7 +95,7 @@ def question3():
         result2 = sum2/int(m)
         if result2 > int(t):    
             print( "過負荷サーバアドレス,10.20.30.2/16")
-            file.write("過負荷サーバアドレス,10.20.30.2/16\n")
+            file.write("過負荷サーバアドレス:10.20.30.2/16\n")
             for k in range(int(m),0,-1):
                 list2.append(server2[parameters[0]][k-1])
 
@@ -115,7 +115,7 @@ def question3():
         result3 = sum3/int(m)    
         if result3 > int(t):   
             print("過負荷サーバアドレス,192.168.1.1/24")
-            file.write("過負荷サーバアドレス,192.168.1.1/24\n")
+            file.write("過負荷サーバアドレス:192.168.1.1/24\n")
             for k in range(int(m),0,-1):                
                 list3.append(server3[parameters[0]][k-1])
                           
@@ -136,7 +136,7 @@ def question3():
         result4 = sum4/int(m)
         if result4 > int(t): 
             print("過負荷サーバアドレス,192.168.1.2/24")
-            file.write("過負荷サーバアドレス,192.168.1.2/24\n")
+            file.write("過負荷サーバアドレス:192.168.1.2/24\n")
             for k in range(int(m),0,-1):
                 list4.append(server4[parameters[0]][k-1])
 
